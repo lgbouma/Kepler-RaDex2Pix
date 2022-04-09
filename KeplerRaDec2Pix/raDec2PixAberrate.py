@@ -3,7 +3,7 @@ import spiceypy as spice
 from astropy.time import Time
 import numpy as np
 import array
-import raDec2PixUtils as ru
+import KeplerRaDec2Pix.raDec2PixUtils as ru
 
 class aberrateRaDec:
     def __init__(self, dataDir):

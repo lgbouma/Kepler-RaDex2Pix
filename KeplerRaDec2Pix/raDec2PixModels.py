@@ -4,7 +4,7 @@ from astropy.time import Time
 import numpy as np
 import types
 import array
-import raDec2PixUtils as ru
+import KeplerRaDec2Pix.raDec2PixUtils as ru
 
 
 class pointingSegment:

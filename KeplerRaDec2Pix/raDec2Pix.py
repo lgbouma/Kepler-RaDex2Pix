@@ -1,8 +1,8 @@
 
 import numpy as np
-import raDec2PixUtils as ru
-import raDec2PixModels as rm
-import raDec2PixAberrate
+import KeplerRaDec2Pix.raDec2PixUtils as ru
+import KeplerRaDec2Pix.raDec2PixModels as rm
+from KeplerRaDec2Pix import raDec2PixAberrate
 
 class raDec2PixClass:
     def __init__(self, dataPath):
